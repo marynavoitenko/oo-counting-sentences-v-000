@@ -28,6 +28,6 @@ class String
 
   def count_sentences
     #self.split.count
-    self.split(/\.|!|\?/).remove('').count
+    self.split(/\.|!|\?/).count
   end
 end
